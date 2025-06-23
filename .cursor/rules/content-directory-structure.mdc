@@ -1,0 +1,110 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+# Content Directory Structure for LLMOps and AgentOps
+
+## Overview
+The [content/](mdc:content) directory is organized to support incremental knowledge building from fundamentals to advanced practices in LLMOps and AgentOps, designed for Obsidian-style knowledge management with clear cross-references and logical progression.
+
+## Directory Structure
+
+### Core Foundations
+```
+content/
+├── fundamentals/
+│   ├── llmops/
+│   ├── agentops/
+│   └── mlops/                  # Traditional MLOps foundation
+│   └── ...
+```
+
+### Advanced Topics
+```
+├── advanced/
+│   ├── llmops/
+│   ├── agentops/
+│   └── infrastructure/
+│   └── ...
+```
+
+### Security and Governance
+```
+├── security/
+│   ├── ai-safety/
+│   ├── compliance/
+│   ├── privacy/
+│   └── ethics/
+```
+
+### Best Practices
+```
+├── best-practices/
+│   ├── llmops/
+│   ├── agentops/
+│   └── general/
+```
+
+### Tools and Frameworks
+```
+├── tools/
+│   ├── llmops/
+│   │   ├── platforms/          # MLflow, Weights & Biases, Neptune
+│   │   ├── serving/            # TensorFlow Serving, Triton, vLLM
+│   │   ├── optimization/       # Optimization libraries and tools
+│   │   └── evaluation/         # Evaluation frameworks and benchmarks
+│   ├── agentops/
+│   │   ├── frameworks/         # LangChain, AutoGen, CrewAI
+│   │   ├── orchestration/      # Agent orchestration tools
+│   │   ├── monitoring/         # Agent monitoring and observability
+│   │   └── development/        # Agent development environments
+│   └── infrastructure/
+│       ├── cloud/              # AWS, GCP, Azure specific tools
+│       ├── containerization/   # Docker, Kubernetes configurations
+│       └── ci-cd/              # CI/CD tools and pipelines
+```
+
+### Case Studies and Examples
+```
+├── case-studies/
+│   ├── llmops/
+│   ├── agentops/
+│   └── lessons-learned/
+```
+
+### Reference Materials
+```
+├── reference/
+│   ├── glossary/               # Comprehensive terminology
+│   ├── papers/                 # Research paper summaries and analysis
+│   └── standards/              # Industry standards and specifications
+```
+
+## Naming Conventions
+
+### Files
+- Use kebab-case for file names: `advanced-fine-tuning-techniques.md`
+- Include clear, descriptive names that indicate content level and scope
+- Use consistent prefixes for series: `01-introduction.md`, `02-setup.md`
+
+### Cross-References
+- Use Obsidian-style linking: `[[concept-name]]` for internal references
+- Create index files for each major section: `index.md`
+- Maintain tag consistency: `#llmops`, `#agentops`, `#security`, `#advanced`
+
+### Content Organization
+- Each directory should contain an `index.md` file explaining the section
+- Use consistent front-matter for metadata and tagging
+- Include navigation aids and cross-references between related topics
+
+## Growth Strategy
+
+This structure supports incremental content addition:
+1. **Start with fundamentals** - Build core knowledge base
+2. **Add practical examples** - Include case studies and tools
+3. **Expand to advanced topics** - Cover cutting-edge techniques
+4. **Integrate security throughout** - Embed security considerations
+5. **Maintain cross-references** - Keep content interconnected
+
+The structure is designed to scale as the field evolves and new topics emerge, while maintaining logical organization and discoverability for Obsidian-style knowledge management.
